@@ -11,7 +11,7 @@ var length = parseInt(prompt("Enter password length from 8 to 128 characters"));
 console.log(length);
 
 if(isNaN(length)){
-  alert ("please enter a number")
+  alert ("Please enter a number between 8 and 128")
   return "";
 }
 
